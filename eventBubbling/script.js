@@ -1,4 +1,4 @@
-console.log('connected');
+console.log('connected event bubbling');
 
 // grandparent
 document.getElementById('grandparent').addEventListener('click', function (event) {
